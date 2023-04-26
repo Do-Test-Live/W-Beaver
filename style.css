@@ -8593,7 +8593,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-border:not(.button-fill):hover {
-    background-color: #444;
+    background-color: #f2b634;
     color: #fff;
     border-color: transparent !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
@@ -9385,7 +9385,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-light .fbox-icon i, .fbox-light .fbox-icon img {
     border: 1px solid #e5e5e5;
     background-color: #f5f5f5;
-    color: #444
+    color: #162d56
 }
 
 .fbox-dark.fbox-outline .fbox-icon a {
@@ -9596,7 +9596,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .fbox-effect .fbox-icon i:hover, .fbox-effect:hover .fbox-icon i {
-    background-color: #333;
+    background-color:#f2b634;
     color: #fff
 }
 
@@ -16354,4 +16354,7 @@ label.checkbox, label.radio {
     letter-spacing: 0 !important;
     font-weight: 700 !important;
     text-transform: capitalize !important;
+}
+.iconcolor{
+    color: #f2b634;
 }
