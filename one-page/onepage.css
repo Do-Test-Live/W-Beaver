@@ -1,5 +1,5 @@
 .header-size-custom #logo img {
-    height: 70px
+    height: 60px
 }
 
 @media (min-width: 992px) {
@@ -69,11 +69,11 @@
     }
 
     .primary-menu .menu-container .menu-link {
-        padding-left: 22px;
-        padding-right: 22px;
-        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
         font-weight: 400;
-        letter-spacing: 3px
+        letter-spacing: 2px
     }
 }
 

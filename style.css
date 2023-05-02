@@ -3351,7 +3351,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     display: block;
     line-height: 22px;
     padding: 14px 5px;
-    color: #444;
+    color: #ffffff;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
@@ -3636,7 +3636,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     }
 
     body:not(.side-header) .menu-container > .menu-item:not(.mega-menu) .sub-menu-container:not([class*=col]) {
-        width: 240px
+        width: 150px
     }
 
     .menu-container > .menu-item:not(.mega-menu) .sub-menu-container {
