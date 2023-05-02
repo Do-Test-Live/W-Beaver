@@ -98,6 +98,11 @@
             display: unset;
         }
     </style>
+    <script>
+        if (window.location.protocol != 'https:') {
+            location.href = location.href.replace("http://", "https://");
+        }
+    </script>
 </head>
 <body class="stretched side-push-panel box-framed">
 
@@ -123,7 +128,7 @@
                     <div id="logo">
                         <a class="standard-logo" data-dark-logo="one-page/images/logo-1.png"
                            href="#"><img alt="NGT Tech"
-                                                            src="one-page/images/logo-1.png"></a>
+                                         src="one-page/images/logo-1.png"></a>
                         <a class="retina-logo" style="height: 44px; width: 71px;" data-dark-logo="one-page/images/logo-1.png"
                            href="#"><img
                                 alt="NGT Tech" src="one-page/images/logo-1.png"></a>
@@ -205,23 +210,23 @@
                 <div class="container text-center py-5">
                     <div class="emphasis-title">
                         <h1 style="font-weight: 700;">
-                           Beaver Capital Group
+                            Beaver Capital Group
                         </h1>
                         <h3>Your Trusted Partner</h3>
                     </div>
-                    <a class="button button-border button-light button-circle" data-easing="easeInOutExpo"
+                    <a class="button button-border button-light button-circle width" data-easing="easeInOutExpo"
                        data-offset="70"
                        data-scrollto="#section-works" data-speed="1250" href="#">Corporate Finance</a>
-                    <a class="button button-border button-light button-circle" data-easing="easeInOutExpo"
+                    <a class="button button-border button-light button-circle width" data-easing="easeInOutExpo"
                        data-offset="70"
                        data-scrollto="#section-works" data-speed="1250" href="#">Family Office</a>
-                    <a class="button button-border button-light button-circle" data-easing="easeInOutExpo"
+                    <a class="button button-border button-light button-circle width" data-easing="easeInOutExpo"
                        data-offset="70"
                        data-scrollto="#section-works" data-speed="1250" href="#">Asset Management</a>
                 </div>
             </div>
             <div class="video-wrap">
-                <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+                <div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
             </div>
             <a class="one-page-arrow dark" data-easing="easeInOutExpo" data-offset="85" data-scrollto="#section-about"
                data-speed="1250"
@@ -317,29 +322,29 @@
                         <div class="col-sm-6 col-lg-3 text-center" data-animate="bounceIn">
                             <!--<i class="i-plain i-xlarge mx-auto mb-0 icon-code"></i>-->
                             <div class="counter counter-lined iconcolor"><span data-from="100" data-refresh-interval="50"
-                                                                     data-speed="2000"
-                                                                     data-to="50"></span>+
+                                                                               data-speed="2000"
+                                                                               data-to="50"></span>+
                             </div>
                             <h5>Amazing clients</h5>
                         </div>
                         <div class="col-sm-6 col-lg-3 text-center" data-animate="bounceIn" data-delay="200">
                             <!--<i class="i-plain i-xlarge mx-auto mb-0 icon-magic"></i>-->
                             <div class="counter counter-lined iconcolor"><span data-from="3000" data-refresh-interval="100"
-                                                                     data-speed="2500"
-                                                                     data-to="60"></span>+
+                                                                               data-speed="2500"
+                                                                               data-to="60"></span>+
                             </div>
                             <h5>Completed deals</h5>
                         </div>
                         <div class="col-sm-6 col-lg-3 text-center" data-animate="bounceIn" data-delay="400">
-                           <!-- <i class="i-plain i-xlarge mx-auto mb-0 icon-file-text"></i>-->
+                            <!-- <i class="i-plain i-xlarge mx-auto mb-0 icon-file-text"></i>-->
                             <div class="counter counter-lined iconcolor">HKD<span data-from="0" data-refresh-interval="1"
-                                                                     data-speed="350"
-                                                                     data-to="5"></span>B
+                                                                                  data-speed="350"
+                                                                                  data-to="5"></span>B
                             </div>
                             <h5>Raised capital</h5>
                         </div>
                         <div class="col-sm-6 col-lg-3 text-center iconcolor" data-animate="bounceIn" data-delay="600">
-                           <!-- <i class="i-plain i-xlarge mx-auto mb-0 icon-time"></i>-->
+                            <!-- <i class="i-plain i-xlarge mx-auto mb-0 icon-time"></i>-->
                             <div class="counter counter-lined"><span data-from="60" data-refresh-interval="30"
                                                                      data-speed="2700"
                                                                      data-to="4"></span>+
@@ -377,64 +382,64 @@
 
             <div class="container" id="servicess">
                 <div class="container clearfix page-section">
-                <div class="heading-block center mb-0 col-mb-50">
-                    <h2 class="mx-auto bottommargin font-body page-heading">Our Services</h2>
-                    <span>We focus on delivering excellent execution services and providing pragmatic solutions for the continual growth of our clients</span>
-                </div>
-                <div class="row col-mb-50 col-mt-50" data-plugin="tabs" id="side-navigation">
-                    <div class="col-md-6 col-lg-4">
-                        <ul class="sidenav">
-                            <li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>IPOs & ECMs<i class="icon-chevron-right"></i></a></li>
-                            <li><a href="#snav-content2"><i class="icon-magic"></i>M&As and Restructurings<i
-                                    class="icon-chevron-right"></i></a></li>
-                            <li><a href="#snav-content3"><i class="icon-star3"></i>Financial Advisory and General Compliances<i
-                                    class="icon-chevron-right"></i></a></li>
-                        </ul>
+                    <div class="heading-block center mb-0 col-mb-50">
+                        <h2 class="mx-auto bottommargin font-body page-heading">Our Services</h2>
+                        <span>We focus on delivering excellent execution services and providing pragmatic solutions for the continual growth of our clients</span>
                     </div>
-                    <div class="col-md-6 col-lg-8">
-                        <div id="snav-content1">
-                            <div class="heading-block">
-                                <h3>IPOs & ECMs</h3>
-                            </div>
-                            <!-- <img alt="Image" class="alignleft" src="images/others/mac-phone.png"
-                                  style="max-width: 320px;">-->
-                            <p>We are duly licensed sponsor for initial public offerings (IPOs) on both the Main Board and the GEM of Hong Kong Stock Exchange</p>
-                            <p>We have a total of four IPO principals with 15- to 25-year HK and international capital market experiences</p>
-                            <p>Our team has helped over 100 clients to list and/or raise funds in Hong Kong and other international markets including red chips, H shares as well as overseas corporations</p>
-                            <p>Our networks of international and local investors also help us provide tailor-made fund raising solutions to clients with different needs</p>
-                            <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
-                               data-offset="70"
-                               data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
+                    <div class="row col-mb-50 col-mt-50" data-plugin="tabs" id="side-navigation">
+                        <div class="col-md-6 col-lg-4">
+                            <ul class="sidenav">
+                                <li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>IPOs & ECMs<i class="icon-chevron-right"></i></a></li>
+                                <li><a href="#snav-content2"><i class="icon-magic"></i>M&As and Restructurings<i
+                                        class="icon-chevron-right"></i></a></li>
+                                <li><a href="#snav-content3"><i class="icon-star3"></i>Financial Advisory and General Compliances<i
+                                        class="icon-chevron-right"></i></a></li>
+                            </ul>
                         </div>
-                        <div id="snav-content2">
-                            <div class="heading-block">
-                                <h3>M&As and Restructurings</h3>
+                        <div class="col-md-6 col-lg-8">
+                            <div id="snav-content1">
+                                <div class="heading-block">
+                                    <h3>IPOs & ECMs</h3>
+                                </div>
+                                <!-- <img alt="Image" class="alignleft" src="images/others/mac-phone.png"
+                                      style="max-width: 320px;">-->
+                                <p>We are duly licensed sponsor for initial public offerings (IPOs) on both the Main Board and the GEM of Hong Kong Stock Exchange</p>
+                                <p>We have a total of four IPO principals with 15- to 25-year HK and international capital market experiences</p>
+                                <p>Our team has helped over 100 clients to list and/or raise funds in Hong Kong and other international markets including red chips, H shares as well as overseas corporations</p>
+                                <p>Our networks of international and local investors also help us provide tailor-made fund raising solutions to clients with different needs</p>
+                                <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
+                                   data-offset="70"
+                                   data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
                             </div>
-                            <p><u>M&As</u></p>
-                            <p>We are duly authorized to advice on mergers & acquisitions, takeovers, privatizations and share repurchases<br>
-                                We are experienced in target identification, deal structuring, terms negotiation and valuation for both buy and sell sides as well as advising minority shareholders<br>
-                                Over the last decades, we witnessed numerous industrial consolidation and cross border M&As in greater China region. Our team members had played key roles in a number of benchmark M&A deals in China and Hong Kong</p>
-                            <p><u>Capital reorganization</u></p>
-                            <p>Appropriate capital structures could bring more financial flexibility to company. We help our clients to adopt the most suitable capital structure to best capture business opportunities</p>
-                            <p><u>Corporate and debt restructuring</u></p>
-                            <p>The design and development of corporate structure is vital for a sustainable development. We help our clients to streamline the holding structure for more efficient management of group assets, get prepared for a capital raising events such as an IPO and for a more efficient operation for growth</p>
-                            <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
-                               data-offset="70"
-                               data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
-                        </div>
-                        <div id="snav-content3">
-                            <div class="heading-block">
-                                <h3>Financial Advisory and General Compliances</h3>
+                            <div id="snav-content2">
+                                <div class="heading-block">
+                                    <h3>M&As and Restructurings</h3>
+                                </div>
+                                <p><u>M&As</u></p>
+                                <p>We are duly authorized to advice on mergers & acquisitions, takeovers, privatizations and share repurchases<br>
+                                    We are experienced in target identification, deal structuring, terms negotiation and valuation for both buy and sell sides as well as advising minority shareholders<br>
+                                    Over the last decades, we witnessed numerous industrial consolidation and cross border M&As in greater China region. Our team members had played key roles in a number of benchmark M&A deals in China and Hong Kong</p>
+                                <p><u>Capital reorganization</u></p>
+                                <p>Appropriate capital structures could bring more financial flexibility to company. We help our clients to adopt the most suitable capital structure to best capture business opportunities</p>
+                                <p><u>Corporate and debt restructuring</u></p>
+                                <p>The design and development of corporate structure is vital for a sustainable development. We help our clients to streamline the holding structure for more efficient management of group assets, get prepared for a capital raising events such as an IPO and for a more efficient operation for growth</p>
+                                <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
+                                   data-offset="70"
+                                   data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
                             </div>
-                            <p>Our professionals provide independent opinions on valuation, fairness of deal terms as well as a wide range of M&As and restructurings advisory services</p>
-                            <p>Our compliance team has highly qualified professionals to assist our clients in meeting the demanding ongoing compliance and regulatory requirements, particularly on directors obligations, disclosure requirements and regulatory communications</p>
-                            <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
-                               data-offset="70"
-                               data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
+                            <div id="snav-content3">
+                                <div class="heading-block">
+                                    <h3>Financial Advisory and General Compliances</h3>
+                                </div>
+                                <p>Our professionals provide independent opinions on valuation, fairness of deal terms as well as a wide range of M&As and restructurings advisory services</p>
+                                <p>Our compliance team has highly qualified professionals to assist our clients in meeting the demanding ongoing compliance and regulatory requirements, particularly on directors obligations, disclosure requirements and regulatory communications</p>
+                                <a class="button button-border button-Secondary button-circle mb-5" data-easing="easeInOutExpo"
+                                   data-offset="70"
+                                   data-scrollto="#section-works" data-speed="1250" href="#">View track records</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
 
             <div class="section dark my-0 border-0" style="height: 500px; padding: 145px 0;">
@@ -443,9 +448,9 @@
                         <div data-animate="fadeInUp">
                             <h2 style="font-size: 36px;">“We work for the best interests of our clients,
                                 because we can grow only when they grow”</h2>
-                           <!-- <p class="d-none d-sm-block">Looks beautiful &amp; ultra-sharp on Retina Screen Displays.
-                                Powerful Layout with Responsive functionality that can be adapted to any screen
-                                size.</p>-->
+                            <!-- <p class="d-none d-sm-block">Looks beautiful &amp; ultra-sharp on Retina Screen Displays.
+                                 Powerful Layout with Responsive functionality that can be adapted to any screen
+                                 size.</p>-->
                         </div>
                     </div>
                 </div>
@@ -617,7 +622,7 @@
             </div>
             <div class="pt-0" id="section-contact">
                 <div class="row mx-0 align-items-stretch">
-                    <div class="col-lg-8 col-md-6 d-none d-md-block px-0">
+                    <div class="col-lg-8 col-md-6 px-0">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3691.8608713916897!2d114.1536826!3d22.2832595!3m2!1i1024!2i768!4f13.1!2m1!1sRoom%2003%207%2FF%20Worldwide%20House%2C%2019%20Des%20Voeux%20Road%20Central%2C%20Hong%20Kong!5e0!3m2!1sen!2sbd!4v1682422054740!5m2!1sen!2sbd" width="1040" height="405" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-lg-4 col-md-6" id="contactus" style="background-color: #F5F5F5;">
@@ -625,21 +630,19 @@
                             <h3 class="font-body fw-normal ls1">Contact Us</h3>
                             <div style="font-size: 16px; line-height: 1.7;">
                                 <address style="line-height: 1.7;">
-                                    <strong>Location:</strong><br>
-                                    Room 03 7/F Worldwide House, 19 Des Voeux Road Central, Hong Kong
+                                    <strong>Location:</strong><br/>
+                                    Unit 01, 12A/F, One Peking, 1 Peking Road.<br class="d-md-block d-none"/>
+                                    T.S.T. Kowloon, <br class="d-md-none d-block"/>HongKong
                                 </address>
-                               <!-- <div class="clear topmargin-sm"></div>
-                                <address style="line-height: 1.7;">
-                                    <strong>Europe:</strong><br>
-                                    Hong Kong<br>
+                                <!-- <div class="clear topmargin-sm"></div>
+                                 <address style="line-height: 1.7;">
+                                     <strong>Europe:</strong><br>
+                                     Hong Kong<br>
 
-                                </address>-->
+                                 </address>-->
                                 <div class="clear topmargin"></div>
-                                <abbr title="Phone Number"><strong>Phone:</strong></abbr> (852) 3188 6280<br>
-                                <abbr title="Fax"><strong>Fax:</strong></abbr> (852) 3106 0563<br>
-                                <abbr title="Email Address"><strong>Email:</strong></abbr> <a class="__cf_email__"
-                                                                                              data-cfemail="5f363139301f3c3e31293e2c713c3032"
-                                                                                              href="#">info@alliancecapital.com.hk</a>
+                                <abbr title="Phone Number"><strong>Phone:</strong></abbr> (852) 60510108<br>
+                                <abbr title="Email Address"><strong>Email:</strong></abbr> <a class="__cf_email__" href="#">info@beaverfo.com</a>
                             </div>
                         </div>
                     </div>
@@ -693,6 +696,4 @@
         integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
         src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"></script>
 </body>
-
-<!-- Mirrored from op-frame.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Nov 2022 12:00:01 GMT -->
 </html>

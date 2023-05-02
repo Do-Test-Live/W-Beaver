@@ -8829,6 +8829,9 @@ body:not(.device-touch) .button.button-full strong {
 .button.button-circle {
     border-radius: 20px
 }
+.width{
+    width: 220px;
+}
 
 .button.button-mini.button-circle {
     border-radius: 14px
