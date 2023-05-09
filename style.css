@@ -13299,7 +13299,7 @@ h3.titular-title {
 }
 
 .heading-block {
-    margin-bottom: 50px
+    margin-bottom: 7px
 }
 
 .emphasis-title h1, .emphasis-title h2, .heading-block h1, .heading-block h2, .heading-block h3, .heading-block h4 {
@@ -13371,7 +13371,7 @@ h3.titular-title {
 .heading-block::after {
     content: '';
     display: block;
-    margin-top: 30px;
+    margin-top: 5px;
     width: 40px;
     border-top: 2px solid #444
 }
